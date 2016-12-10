@@ -148,16 +148,16 @@ We need to know what contents app.component.html require. see example below
 <img src="0ts2.png">
 <pre>
 
-<div class='container-fluid'>
-    <div class='row'>
-        <div class='col-sm-3'>
-            <nav-menu></nav-menu>
-        </div>
-        <div class='col-sm-9 body-content'>
-            <router-outlet></router-outlet> 
-            <footer></footer>
-        </div>
-    </div>
+< div class='container-fluid'>
+    < div class='row'>
+        < div class='col-sm-3'>
+            < nav-menu>< /nav-menu>
+        < /div>
+        < div class='col-sm-9 body-content'>
+            < router-outlet>< /router-outlet> 
+            < footer>< /footer>
+        < /div>
+    < /div>
    
     
 </pre>
