@@ -170,7 +170,12 @@ from this html, we can find that at least we need to create three components chi
  <img src="0ts3.png">
  
  
+##Summary
 
+Now we can see how ng2 in asp.net core works, it looks like we are doing the logo game to build a waterfall from the top to the bottom. the bottom is composed of the ng2 components. 
+
+ <img src="wtf.jpng">
+ 
 
 
 
