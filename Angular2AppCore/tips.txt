@@ -1,3 +1,6 @@
+﻿If you don’t want to use server-side prerendering for some reason, disable it by removing the asp-prerender-module attribute from the <app> element in Views/Home/Index.cshtml.
+
+
 import 'angular2-universal-polyfills/browser';
 import { enableProdMode } from '@angular/core';
 import { platformUniversalDynamic } from 'angular2-universal';
@@ -69,6 +72,18 @@ if (document.readyState === 'complete') {
 //export AppModule
 
 //appmodule .ts is applicaiton level js file
+<app>app.component.html here</app>
+
+@Component({
+    selector: 'app',
+    template: require('./app.component.html'),
+    styles: [require('./app.component.css')]
+})
+export class AppComponent {
+}
+
+
+
 //so we need to import all other modules in here.
 
 
@@ -140,3 +155,10 @@ if (document.readyState === 'complete') {
 
 //when each compoent is called, its html.css, and ts three files are called auto. 
 
+
+
+
+18
+
+<body>
+<app>
