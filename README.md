@@ -1,8 +1,7 @@
 # Ng2 in Aspnet Core
 
-This is the latest ng2 in asp.net core template. it works if we can roughtly understand something in this template. 
-
-We as a developer maybe will know how to use this template to develop a ng2 applicaiton rather than to know how this template is built. As the fast changes of the ng 2 technology, the best way for us to use and learn ng 2 is to know how to use ng2 for development. Check blog <a href="http://blog.stevensanderson.com/2016/10/04/angular2-template-for-visual-studio/">here</a> to know how to get started. After we install all necessary packages in visual studio 2015, we can see a new application template is installed in visual studio 2015 as image below shown.
+This is the latest ng2 in asp.net core template. it works if we can roughtly understand something in this template.
+As the fast changes of the ng 2 technology, the best way for us to use and learn ng 2 is to know how to use ng2 for development. Check blog <a href="http://blog.stevensanderson.com/2016/10/04/angular2-template-for-visual-studio/">here</a> to know how to get started. After we install all necessary packages in visual studio 2015, we can see a new application template is installed in visual studio 2015 as image below shown.
 <img src="0ts1.png">
 Create a new project from this template, run it, and check the file structure in this project.
 
